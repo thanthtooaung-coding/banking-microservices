@@ -24,6 +24,8 @@ public class Account {
   
   public UUID getId() { return id; }
 
+    public void setId(UUID id) { this.id = id; }
+
     public UUID getUserId() { return userId; }
 
     public void setUserId(UUID userId) { this.userId = userId; }
@@ -33,5 +35,7 @@ public class Account {
     public void setBalance(BigDecimal balance) { this.balance = balance; }
 
     public Instant getCreatedAt() { return createdAt; }
+
+    public void setCreatedAt(Instant createdAt) { this.createdAt = createdAt; }
 
 }
